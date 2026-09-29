@@ -1,0 +1,59 @@
+# ================================
+# .NET / Visual Studio
+# ================================
+
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Rider
+.idea/
+*.sln.iml
+
+# ================================
+# Environment / Secrets
+# ================================
+
+# Local configuration
+appsettings.Development.json
+
+# Ignore production/local appsettings if they contain secrets
+appsettings.json
+
+# User-specific environment files
+.env
+.env.*
+!.env.example
+
+# ================================
+# Logs
+# ================================
+
+logs/
+*.log
+
+# ================================
+# OS files
+# ================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ================================
+# Temporary files
+# ================================
+
+*.tmp
+*.temp
+*.bak
